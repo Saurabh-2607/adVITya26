@@ -1,8 +1,9 @@
-function Events() {
+import React from 'react'
+
+function Event() {
   return (
-    <div className="min-h-screen w-full">
-    </div>
-  );
+    <div>Event</div>
+  )
 }
 
-export default Events;
+export default Event

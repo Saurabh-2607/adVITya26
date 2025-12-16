@@ -7,6 +7,7 @@ import Dashboard from './pages/Dashboard';
 import SignupLogin from './pages/SignupLogin';
 import Team from './pages/Team';
 import Sponsor from './pages/Sponsor';
+import EventDetails from './pages/EventDetails';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
+            <Route path='/eventdetails' element={<EventDetails />} />
             <Route path="/dashboard" element={<Dashboard />} />
             <Route path="/login" element={<SignupLogin />} />
             <Route path="/team" element={<Team />} />

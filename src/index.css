@@ -34,7 +34,9 @@
    TEAM PAGE STYLES
    ============================================ */
 /* Add Team page specific custom styles here */
-
+.team-main-div{
+   padding: 34px 26px;
+}
 
 /* ============================================
    SPONSOR PAGE STYLES
@@ -47,7 +49,7 @@
    ============================================ */
 /* Add reusable component custom styles here */
 
-*{
+body{
   margin: 0px;
   padding: 0px;
 }

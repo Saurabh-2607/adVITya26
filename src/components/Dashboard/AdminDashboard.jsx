@@ -156,6 +156,7 @@ export default function AdminDashboard() {
           category: newClub.category,
           description: newClub.description || '',
           logo: finalLogoUrl || '',
+          createdAt: new Date().toISOString(),
         }
       );
       setNewClub({ name: '', category: 'technical', description: '', logoFile: null, logoPreview: '', logoUrl: '' });

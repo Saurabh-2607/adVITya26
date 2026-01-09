@@ -13,9 +13,16 @@ function Home() {
       <AboutSection />
       <GallerySection />
       <SponsoredBy />
-      <TeaserSection />
-      <EventsSection />
-      <LeadershipSection />
+      <section id="teaser">
+        <TeaserSection />
+      </section>
+      <section id="events">
+        <EventsSection />
+      </section>
+      <section id="leadership">
+        <LeadershipSection />
+      </section>
+      
     </div>
   );
 }

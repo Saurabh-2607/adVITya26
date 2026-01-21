@@ -3,7 +3,7 @@ import Footer from '../components/Footer';
 
 function Team() {
   const sportsStats = {
-    title: 'adVITya Sports',
+    title: 'AdVITya Sports',
     data: [
       { label: 'Sports Events (Boys + Girls)', value: '9' },
       { label: 'Total Participants', value: '957' },
@@ -15,7 +15,7 @@ function Team() {
   };
 
   const technoCulturalStats = {
-    title: 'adVITya Techno-Cultural',
+    title: 'AdVITya Techno-Cultural',
     data: [
       { label: 'Participants', value: '5000+' },
       { label: 'External Participants', value: '534' },
@@ -26,13 +26,13 @@ function Team() {
   };
 
   const sportsEvent = {
-    title: 'adVITya Sports',
+    title: 'AdVITya Sports',
     duration: '4 days + 1 Reserve Day',
     dates: '21st - 24th Feb, 2026',
   };
 
   const technoCulturalEvent = {
-    title: 'adVITya Techno-Cultural',
+    title: 'AdVITya Techno-Cultural',
     duration: '3 days',
     dates: '26th - 28th Feb, 2026',
   };
@@ -53,17 +53,17 @@ function Team() {
           {/* About AdVITya Section */}
           <div className="mb-16">
             <h1 className="text-4xl md:text-5xl font-bold text-white mb-8 text-center">
-              About adVITya
+              About AdVITya
             </h1>
             <p className="text-base md:text-lg text-gray-300 leading-relaxed text-center mb-8 max-w-4xl mx-auto">
-              adVITya, the annual Techno-Cultural & Sports Fest of VIT Bhopal University, epitomises the institution's commitment to a dynamic learning environment, fostering innovation, creativity, and technical prowess. Providing a physical platform for students to showcase their talents, engage in competitions, and immerse themselves in diverse cultural experiences. adVITya plays a crucial role in holistic student development.
+              AdVITya, the annual Techno-Cultural & Sports Fest of VIT Bhopal University, epitomises the institution's commitment to a dynamic learning environment, fostering innovation, creativity, and technical prowess. Providing a physical platform for students to showcase their talents, engage in competitions, and immerse themselves in diverse cultural experiences. AdVITya plays a crucial role in holistic student development.
             </p>
           </div>
 
           {/* AdVITya 2026 Events Section */}
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
-              adVITya '26
+              AdVITya '26
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
               {/* Sports Event */}
@@ -89,7 +89,7 @@ function Team() {
           {/* Stats About AdVITya Section */}
           <div className="mb-16">
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
-              Stats About adVITya 2025
+              Stats About AdVITya 2025
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12">
               {/* Sports Stats */}

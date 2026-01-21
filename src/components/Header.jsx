@@ -24,7 +24,7 @@ function Header() {
         { name: 'Home', path: '/' },
         { name: 'Events', path: '/events' },
         { name: 'Sports Fest', path: '/sportfest' },
-        { name: 'Sponsors', path: '/sponsor' },
+        { name: 'Sponsor Us', path: '/sponsor' },
         { name: 'About Us', path: '/team' }
     ];
 

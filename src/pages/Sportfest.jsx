@@ -124,10 +124,10 @@ function Sportfest() {
           {/* HERO */}
           <div className="mb-16 text-center">
             <h1 className="text-5xl md:text-6xl font-bold text-white mb-6">
-              adVITya&apos;26 SPORTS FEST
+              AdVITya&apos;26 SPORTS FEST
             </h1>
             <p className="text-gray-300 max-w-2xl mx-auto mb-8">
-              Dive into the heart of VIT Bhopal with adVITya&apos;26 – an electrifying blend of sports,
+              Dive into the heart of VIT Bhopal with AdVITya&apos;26 – an electrifying blend of sports,
               energy, and competition.
             </p>
 

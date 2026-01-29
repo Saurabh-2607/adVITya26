@@ -196,7 +196,7 @@ const Countdown = () => {
   );
 };
 
-const PreLoader = ({ initialScrambleTicks = 2 }) => {
+const PreLoader = ({ initialScrambleTicks = 2, show = true }) => {
   const targetText = "FEEL THE ENIGMA";
   const [displayText, setDisplayText] = useState([]);
 
@@ -251,6 +251,7 @@ const PreLoader = ({ initialScrambleTicks = 2 }) => {
 
   return (
     <AnimatePresence>
+      {show && (
       <motion.div
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -296,6 +297,7 @@ const PreLoader = ({ initialScrambleTicks = 2 }) => {
           <Countdown />
         </div>
       </motion.div>
+      )}
     </AnimatePresence>
   );
 };
